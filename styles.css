@@ -1,0 +1,56 @@
+﻿@font-face {
+    font-family: KH_Font;
+    src: url(KH_Font.ttf);
+}
+body {
+    background: url(KHCoM_TitleScreen.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    display: flex;
+}
+.grid {
+    border: black solid 2px;
+    width: 200px;
+    height: 400px;
+    background: url(KHCom_BoxArt.png);
+    background-size: 100% 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid div {
+    height: 20px;
+    width: 20px;
+}
+.tetromino {
+    background-color: blue;
+}
+.mini-grid {
+    border: silver solid 2px;
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+    background: url(khCoM_Title.png);
+    background-size: 100% 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.mini-grid div {
+    width: 20px;
+    height: 20px;
+}
+button {
+    background: url(KHCoM_JPVer.png);
+    background-size: 100% 100%;
+    margin: 10px;
+    padding: 25px;
+    font-family: KH_Font;
+    font-size: 2em;
+    color: white;
+}
+h3 {
+    font-family: KH_Font;
+    font-size: 2em;
+    color: black;
+}
